@@ -71,6 +71,10 @@ exports.verifyPayment = async(req, res) => {
     const courses = req.body?.courses;
     const userId = req.user.id;
 
+    console.log("Printing courses",courses);
+    console.log("Printing userid",userId);
+
+
     if(!razorpay_order_id ||
         !razorpay_payment_id ||
         !razorpay_signature || !courses || !userId) {
