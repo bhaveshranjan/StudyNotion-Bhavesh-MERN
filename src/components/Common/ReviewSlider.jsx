@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import ReactStarts from 'react-rating-stars-component';
 import { apiConnector } from '../../services/apiConnector';
-import {ratingsEndpoints} from '../../services/api'
+import {ratingsEndpoints} from '../../services/apis'
 import { toast } from 'react-hot-toast';
 import {FaStar} from 'react-icons/fa'
 
